@@ -22,7 +22,13 @@
     --sans:'IBM Plex Sans',system-ui,sans-serif;
     --disp:'Archivo',var(--sans);
   }
-  *{margin:0;padding:0;box-sizing:border-box}
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  @media print{
+    .topbar{display:none!important}
+    .rail{position:static;height:auto}
+    .reveal{opacity:1!important;transform:none!important}
+    body{background:var(--paper)!important}
+  }
   html{scroll-behavior:smooth}
   @media (prefers-reduced-motion:reduce){
     html{scroll-behavior:auto}
