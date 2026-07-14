@@ -44,7 +44,7 @@
   .rail-role{font-family:var(--mono);font-size:.75rem;color:var(--mask);margin-top:8px;letter-spacing:.06em}
   .map{margin-top:44px;border-top:1px solid var(--line);flex:1}
   .map-caption{font-family:var(--mono);font-size:.66rem;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;padding:14px 0 4px}
-  .seg{display:flex;align-items:baseline;gap:14px;padding:11px 10px;border-bottom:1px solid var(--line);font-family:var(--mono);font-size:.82rem;color:var(--ink);position:relative;transition:backgroun[...]
+  .seg{display:flex;align-items:baseline;gap:14px;padding:11px 10px;border-bottom:1px solid var(--line);font-family:var(--mono);font-size:.82rem;color:var(--ink);position:relative;transition:background .15s}
   .seg .addr{color:var(--muted);font-size:.68rem;width:64px;flex-shrink:0}
   .seg .sect{color:var(--mask);font-weight:600;width:88px;flex-shrink:0}
   .seg .lbl{color:var(--muted)}
@@ -198,7 +198,7 @@
           <span class="featured-badge">featured</span>
         </div>
         <div class="stack">C++17 · Linux · epoll · pthreads/std::thread · GNU Make</div>
-        <p>An event-driven chat server built to understand what actually happens between <code style="font-family:var(--mono);font-size:.85em">accept()</code> and a message arriving on another client'[...]
+        <p>An event-driven chat server built to understand what actually happens between <code style="font-family:var(--mono);font-size:.85em">accept()</code> and a message arriving on another client's screen — non-blocking I/O, readiness notification, and safe shared state under concurrency.</p>
         <pre class="arch"><span class="g">clients ──TCP──▶</span> epoll event loop (1 thread, O_NONBLOCK, drain to EAGAIN)
                         │ submit(task)
                 <span class="g">worker thread pool</span> (std::thread · mutex · condition_variable)
@@ -215,7 +215,7 @@
       <article class="proj">
         <div class="proj-head"><h3>Smart Water Tank Monitoring System</h3></div>
         <div class="stack">ESP32 (embedded C/C++) · FastAPI · PostgreSQL · IoT + ML — NIT Warangal</div>
-        <p>A deployed IoT system that senses water level, flow rate, and water temperature in real time, streaming readings from ESP32 firmware to a cloud backend with a phone-friendly live dashboard.[...]
+        <p>A deployed IoT system that senses water level, flow rate, and water temperature in real time, streaming readings from ESP32 firmware to a cloud backend with a phone-friendly live dashboard.</p>
         <ul>
           <li>Embedded C/C++ firmware reading level, flow, and temperature sensors on ESP32.</li>
           <li>FastAPI + PostgreSQL backend — REST APIs for sensor ingestion and time-series queries.</li>
@@ -244,7 +244,7 @@
           <div>
             <h3>IoT &amp; AI Intern</h3>
             <div class="org">NIT Warangal</div>
-            <p>Developed an AI-powered IoT water-tank monitoring system — ESP32 sensor firmware in embedded C/C++, plus predictive consumption analysis and anomaly detection over live sensor data.</[...]
+            <p>Developed an AI-powered IoT water-tank monitoring system — ESP32 sensor firmware in embedded C/C++, plus predictive consumption analysis and anomaly detection over live sensor data.</p>
           </div>
         </div>
         <div class="xp">
